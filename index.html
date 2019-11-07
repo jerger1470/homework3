@@ -17,7 +17,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-8 col-sm-12 mx-auto">
                 <div class="box">
                     <h4>Password Generator</h4>
                     <div class="innerBox">
@@ -27,12 +27,12 @@
 
                         <br> 
                         <h6>How long would you like you password?</h6>
-                        <input type="number" min="0" max="36" name="entry" id="entry">
+                        <input type="number" value="16" min="0" max="128" id="entry">
 
                         <br> 
                         <br>
-                        <button type="button" class="btn-primary btn-lg">Generate Password</button>
-                        <button type="button" class="btn-primary btn-lg">Copy to Clipboard</button> 
+                        <button id= "generate">Generate Password</button>
+                        <button id= "copy">Copy to Clipboard</button> 
                     </div>
 
                 </div>
