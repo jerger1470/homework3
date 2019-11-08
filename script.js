@@ -9,20 +9,20 @@ var display = document.getElementById("display");
 
 //runs program on click
 
-// generate.addEventListener("click", result)
+generate.addEventListener("click", result)
 
-// function result()
+function result()
 
-// {
+{
     
-//     display.value = password(entry.value, characters)
+    display.value = password(entry.value, values)
 
-// ;
-// }
+;
+}
 
 //console log that prints password
 
-console.log(password(32,values));
+console.log(password(entry,values));
 
 //function that runs the random generator
 
@@ -37,4 +37,3 @@ for(var i = 0; i < length;i++){
 }
      return pwd;
 }
-//saif51483@gmail.com
