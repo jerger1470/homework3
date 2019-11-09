@@ -5,7 +5,7 @@ var values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$
 var entry = document.getElementById("entry")
 var generate = document.getElementById("generate");
 var display = document.getElementById("display");
-
+var copy = document.getElementById("copy");
 
 //runs program on click
 
@@ -23,6 +23,21 @@ function result()
 //console log that prints password
 
 console.log(password(entry,values));
+
+//copy to clip board
+
+function clipboard()
+{
+var copyText = display;
+  copyText.select();
+  copyText.setSelectionRange(0, 128)
+  document.execCommand("copy");
+  alert("Copied to clipboard: " + copyText.value);
+    
+
+
+}
+copy.addEventListener("click", clipboard)
 
 //function that runs the random generator
 
