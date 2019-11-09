@@ -20,10 +20,6 @@ function result()
 ;
 }
 
-//console log that prints password
-
-console.log(password(entry,values));
-
 //copy to clip board
 
 function clipboard()

@@ -8,3 +8,5 @@ second push- add for loop in javascript, add console log to test for loop. havin
 third push- fixed javascript. realized my script wasnt beening called because it was in the header. also realized i was trying to call the wrong variable, mistake was i was calling a perameter not the actually variable.
 
 fourth push- added function for clipboard, alerts browser that the password is copied
+
+fifth push - removed console log, trying to figure out why the copy clipboard works locally, not on github
